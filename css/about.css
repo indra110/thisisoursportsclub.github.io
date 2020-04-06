@@ -1,0 +1,292 @@
+nav{
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+.navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;
+}
+
+.navbar-nav > li:hover
+{
+	background: #03b1ff;
+}
+
+.mainbody{
+	font-size: 18px;
+	font-family: 'Acme', sans-serif;
+}
+
+hr.style-five {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px black;
+}
+hr.style-five:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
+
+footer{
+	background: #ddd;
+}
+
+p{
+	color: #999;
+	line-height: 25px;
+}
+h2,h3{
+	color: #fff;
+}
+h2{
+	font-size: 18px;
+}
+
+
+
+body{
+	background: #88B04B;
+	background: cover;
+}
+
+
+.team{
+	margin: 75px 0;
+}
+
+h1{
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: #333;
+	padding-bottom: 10px;
+}
+
+h1:after
+{
+	content: '';
+	background: #333;
+	display: block;
+	height: 3px;
+	width: 150px;
+	margin: 10px auto;
+}
+
+.profile{
+	margin-top: 25px;
+}
+
+.profile .img-box{
+	 opacity: 1;
+	 display: block;
+	 position: relative;
+}
+
+.profile h2
+{
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 15px;
+}
+
+.profile h3{
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 15px;
+}
+
+.img-box:after{
+	content: '';
+	opacity: 0;
+	background-color: rgba(0,0,0,0.6);
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.img-box ul{
+	margin: 0;
+	padding: 20px 0;
+	position: absolute;
+	z-index: 1;
+	bottom: 0;
+	display: block;
+	left: 50%;
+	transform: translateX(-50%);
+	opacity: 0rrr
+	;
+}
+
+.img-box ul li{
+	width: 30px;
+	height: 30px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	margin: 3px;
+	padding: 7px;
+	display: inline-block;
+}
+
+
+.img-box a{
+	color: #fff;
+}
+
+.img-box:hover:after
+{
+	opacity: 1;
+}
+
+.img-box:hover ul{
+	opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER-----------------------------*/
+footer{
+	color: #fff;
+}
+.footer-top{
+	background: #111;
+	padding: 80px 0;
+}
+.segment-one h3{
+	font-family: 'Comic Neue', cursive;
+	color: #fff;
+	letter-spacing: 3px;
+	margin: 10px 0;
+}
+
+.segment-two h2{
+	color: #fff;
+	font-family: 'Comic Neue', cursive;
+	text-transform: uppercase;
+}
+
+.segment-two h2:before{
+	content: '|';
+	color: #c65039;
+	font-family: 'Comic Neue', cursive;
+	padding-right: 10px;
+}
+
+.segment-two ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.segment-two ul li{
+	border-bottom: 1px solid rgba(255,255,255,0.3);
+	line-height: 40px;
+}
+
+.segment-two ul li a{
+	color: #999;
+	text-decoration: none;
+}
+
+.segment-three h2{
+	color: #fff;
+	font-family: 'Comic Neue', cursive;
+	text-transform: uppercase;
+}
+
+.segment-three h2:before{
+	content: '|';
+	color: #c65039;
+	font-family: 'Comic Neue', cursive;
+	padding-right: 10px;
+}
+
+.segment-three a{
+	background: #494848;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	border-radius: 50%;
+}
+
+.segment-three a i{
+	font-size: 20px;
+	color: #fff;
+	padding: 10px 12px;
+}
+
+.segment-four h2{
+	color: #fff;
+	font-family: 'Comic Neue', cursive;
+	text-transform: uppercase;
+}
+
+.segment-four h2:before{
+	content: '|';
+	color: #c65039;
+	font-family: 'Comic Neue', cursive;
+	padding-right: 10px;
+}
+
+.segment-four form input[type=submit]{
+	background: #c65039;
+	border: none;
+	padding: 3px 15px;
+	margin-left: 1px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.footer-bottom-text{
+	text-align: center;
+	background: #000;
+	line-height: 75px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.md-mb-30{
+		margin-bottom: 30px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.sm-mb-30{
+		margin-bottom: 30px;
+	}
+	.footer-top{
+		padding: 50px 0;
+	}
+}
